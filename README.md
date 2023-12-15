@@ -1,6 +1,4 @@
-# Social Media Web Application
 
-## Project Structure
 
 Project Structure
   # Social Media Web Application
