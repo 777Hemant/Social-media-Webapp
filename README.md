@@ -3,23 +3,28 @@
 ## Project Structure
 
 Project Structure
-1. index.js
-The main entry point of the application responsible for setting up the Express server and connecting to MongoDB.
+  # Social Media Web Application
 
-2. models/
-This directory holds Mongoose models for User and Tweet, facilitating interaction with the MongoDB database.
+## Project Structure
 
-3. controllers/
-The controllers directory contains modules that implement the business logic for user authentication, user management, and tweet-related actions.
+1. `index.js`
+   - The main entry point of the application responsible for setting up the Express server and connecting to MongoDB.
 
-4. routes/
-API routes for authentication, user actions, and tweet actions are defined in this directory.
+2. `models/`
+   - This directory holds Mongoose models for User and Tweet, facilitating interaction with the MongoDB database.
 
-5. verifyToken.js
-Middleware responsible for verifying JWT tokens, enhancing the application's security.
+3. `controllers/`
+   - The controllers directory contains modules that implement the business logic for user authentication, user management, and tweet-related actions.
 
-6. error.js
-A utility module providing error-handling functionalities, improving the application's robustness.
+4. `routes/`
+   - API routes for authentication, user actions, and tweet actions are defined in this directory.
+
+5. `verifyToken.js`
+   - Middleware responsible for verifying JWT tokens, enhancing the application's security.
+
+6. `error.js`
+   - A utility module providing error-handling functionalities, improving the application's robustness.
+
 
 ## Features
 
